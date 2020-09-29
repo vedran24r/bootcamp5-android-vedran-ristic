@@ -216,7 +216,7 @@ public class MainActivity extends AppCompatActivity implements SuggestionAdapter
                                 Toast.makeText(MainActivity.this, "There are no movies with this name", Toast.LENGTH_SHORT).show();
                             }
 
-                            MovieAdapter adapter = new MovieAdapter(MainActivity.this, R.layout.row_layout, movieList); //importante senior
+                            MovieAdapter adapter = new MovieAdapter(MainActivity.this, R.layout.row_layout, movieList); //importante senior s
                             lvList.setAdapter(adapter);
                             adapter.notifyDataSetChanged();
 
